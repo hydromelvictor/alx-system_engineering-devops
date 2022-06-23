@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -rwx-rx-x hello
+chmod 751 hello
