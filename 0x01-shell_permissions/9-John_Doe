@@ -1,2 +1,2 @@
 #!/bin/bash
-umask 022
+id hello
