@@ -1,1 +1,2 @@
-#!/bin/bash\umask umask 022
+#!/bin/bash
+umask 022
