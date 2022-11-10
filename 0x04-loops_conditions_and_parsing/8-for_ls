@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays
+list="$(ls)"
+for i in $list
+do
+	echo "$i:$(expr index $i -)"
+done
