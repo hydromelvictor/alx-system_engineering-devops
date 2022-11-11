@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Write a Bash script that stops 4-to_infinity_and_beyond process.
+cmd=$(pgrep 7-highlander)
+echo "kill $cmd"
