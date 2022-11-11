@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Using your previous exercise command
+# shellcheck disable=SC2009
+cmd=$(ps -u | grep bash)
+echo "$cmd"
