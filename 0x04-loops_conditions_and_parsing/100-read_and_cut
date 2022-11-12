@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays the content of the file
+path=$(/etc/passwd)
+for i in "ls $path"
+do
+	echo "$i"
+done

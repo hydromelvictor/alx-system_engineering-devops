@@ -3,5 +3,5 @@
 list="$(ls)"
 for i in $list
 do
-	echo "$i:$(expr index $i -)"
+	find "$list" | cut -d -f2
 done
