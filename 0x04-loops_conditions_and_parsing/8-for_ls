@@ -3,5 +3,5 @@
 list="$(ls)"
 for i in $list
 do
-	find "$i" | cut -d -f2
+	find "$i" | cut -d- -f2
 done
