@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays
+list="$(ls)"
+for i in $list
+do
+	find "$i" | cut -d- -f2
+done
