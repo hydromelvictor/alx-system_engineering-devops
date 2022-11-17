@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# change Ip for localhost and facebook
+cp /etc/hosts ~/hosts.new
+echo -e "127.0.0.2\t\tlocalhost" > ~/hosts.new
+echo -e "8.8.8.8\t\tfacebook.com" >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
