@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Double the number of webservers
+#Double the number of webservers
 FILE="/etc/nginx/sites-available/default"
 ERRORFILE="/usr/share/nginx/html/404error.html"
 
