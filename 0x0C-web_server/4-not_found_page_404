@@ -3,7 +3,7 @@
 
 STR="Hello World!"
 
-RED="\n\tlocation /redirect_me {\n\t\treturn 301 https://youtu.be/dQw4w9WgXcQ;\n\t}\n"
+RED="\n\tlocation /redirect_me {\n\t\treturn 301 https://youtube.com;\n\t}\n"
 FILE="/etc/nginx/sites-available/default"
 
 ERR_FILE="/usr/share/nginx/html/404error.html"
