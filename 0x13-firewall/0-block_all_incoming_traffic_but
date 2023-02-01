@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Let’s install the ufw firewall and setup a few rules on web-01.
+# except for tcp ports 22, 443, 80
 apt-get install ufw
 sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
 ufw disable
