@@ -1,7 +1,9 @@
-What happens when you type google.com in your browser and press Enter
+What happens when you type google.com in your browser and press Enter?
 ======================================================================
 
-etrange question n'est pas? vous n'y avez jamais pensée? ok c'est maintenant le moment, alors que se passe-t-il lorsque vous saisissez https://www.google.com dans votre navigateur et que vous appuyez sur Entrée ?
+Etrange question n'est pas? vous n'y avez jamais pensée? ok c'est maintenant le moment, alors que se passe-t-il lorsque vous saisissez https://www.google.com dans votre navigateur et que vous appuyez sur Entrée ?
+
+![](screenshot20230205000118.png)
 
 tout d'abord commençons par dire que "https://www.google.com" est ce que nous appelons une **url**(*Uniform Resource Locator*). essayons d'etre un peut plus clair en lui donnant une definition plus simple
 
@@ -59,5 +61,5 @@ en d'autre terme c'est la secretaire chargé du resumé de la reunion et n'y inc
 
 ## Database
 
-c'est l'entroid ou reside les données importantes, c'est le systeme de stockage.
+c'est l'endroit ou reside les données importantes, c'est le systeme de stockage.
 
