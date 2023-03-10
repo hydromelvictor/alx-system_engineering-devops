@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #   Pauses two seconds in between each message.
 
 while true
