@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 #   Pauses two seconds in between each message.
 
 while true

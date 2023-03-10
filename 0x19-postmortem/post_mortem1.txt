@@ -1,0 +1,42 @@
+POSTMORTEM
+===============
+
+Ce rapport est le postmortem de notre architecture d'api AirBnB_clone 4 qui jusqu'a
+present est dans un etat de surveillance minimal apres sa defaillance.
+
+## Issue Summary
+
+depuis le 14 fevrier  au 20 fevrier 2023 notre projet a emis une erreur 500 avec 
+un impact de 100% sur la totalité du projet la mettant ainsi hors service.
+
+## Timeline
+
+    * 23/02/14 08:00 GMT configuration de la phase 4 du projet
+    * 23/02/14 17:30 GMT ajout des nouvelles methodes aux fonction de stockage
+    * 23/02/15           la panne commence
+    * 23/02/16 10:15 GMT alerte des equipes
+    * 23/02/17           relecture du projet
+    * 23/02/18           decouverte et correction des premiere bogue
+    * 23/02/19           decouverte et correction du bug majeur
+    * 23/02/20           remise en fonction du project a 45%
+
+## Root Cause
+
+le 14 fevrier 2023 au tour de 17h30 GMT un ingenieur du projet a ajouter a la 
+configuration des systeme de stockage plusieurs programme avec les erreurs de syntaxe
+ainsi que des lignes de code a moitié correct. 
+
+## Resolution and recovery
+
+le 16 du meme mois le systeme d'alerte
+ a alerte les ingenieurs en charge puis la recherche des cause du probleme ont debuté.
+ ne trouvant pas de cause dans le serveur et systeme architectural nous avous mis 
+ au point le 17 fevrier a 10h15 GMT la relecture total du code en vue de trouver une
+ des incoherrence. vu la taille du projet seulement le 18 que la decouverte des erreur
+ ont debuté enfin nous avons pu regler le probleme. 
+
+## Corrective and Preventative Measures
+
+les codes erronés ont été corrigé et le systeme remis en route.
+nos avons pris des mesures Preventative afin que des tests et des relectures de codes
+soit faites avant tout mmis en fonction apres un projet
